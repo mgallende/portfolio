@@ -1,0 +1,917 @@
+
+
+@media (max-width: 1280px) {
+    header {
+        background-image: url('../image/fondo_header.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        height: 100vh
+    }
+
+    header h1 {
+        width: 50%;
+        font-size: 3.2em;
+        color: #fff;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        text-align: left;
+    }
+
+    .subtitle {
+        font-size: .9em;
+    }
+
+    nav li a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
+        font-weight: 700;
+
+    }
+
+    nav li a:hover {
+        background-color: #501510;
+    }
+
+    /* Sección About*/
+    .about-images-code {
+        display: inline-block;
+        justify-content: center;
+        padding-left: 12em;
+    }
+
+    .image-code-html {
+        width: 400px;
+        height: auto;
+
+    }
+
+    .image-code-css {
+        margin-left: 3em;
+        width: 400px;
+
+    }
+
+    .image-code-javascript {
+        margin-left: -2em;
+        width: 400px;
+    }
+
+    .about h2 {
+        text-align: center;
+        font-family: 'DM Serif Display', serif;
+        font-size: 2.5em;
+        letter-spacing: 3px;
+    }
+
+    .img-profile {
+        width: 200px;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6);
+    }
+
+    .about-me-img-txt {
+        gap: 1em;
+        width: 40%;
+    }
+
+    .about-me-img-txt p {
+        font-family: 'DM Serif Display', serif;
+        font-size: 1em;
+
+    }
+
+    .about-me-content h2 {
+        font-size: 2.5em;
+        color: gray;
+    }
+
+    .logos-skills img {
+        width: 64px;
+        height: auto;
+    }
+
+
+    .img-portfolio {
+        width: 400px;
+        height: auto;
+    }
+
+
+    /* Contact*/
+    /* Contact Section */
+    .contacts {
+        margin: 2em auto;
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+
+    header {
+        background-size: 100vw auto;
+    }
+
+    header h1 {
+        width: 60%;
+        font-size: 3em;
+    }
+
+    .subtitle {
+        font-size: .8em;
+    }
+
+    nav li a {
+        font-size: 1em;
+        font-weight: 700;
+        letter-spacing: 1px;
+
+    }
+    nav li a:hover {
+        background-color:#501510;
+    }
+    /* Sección About*/
+
+    .about h2 {
+        font-size: 2em;
+    }
+    .img-txt {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .img-profile {
+        width: 200px;
+    }
+
+    .about-me-img-txt {
+        margin-top: -1em;
+        width:50%;
+        height: 85vh;
+    }
+    .about-me-img-txt p {
+        font-family: 'DM Serif Display', serif;
+        font-size: .98em;
+        text-align: left;
+        text-justify: auto;
+    }
+
+    .logos-skills {
+        justify-content: center;
+        gap: 3em;
+    }
+
+    .logos-skills img {
+        width: 64px;
+        height: auto;
+    }
+
+    .about-images-code {
+        display: inline-block;
+        justify-content: center;
+        padding-left: 10em;
+    }
+
+    .image-code-html {
+        width: 250px;
+    }
+
+    .image-code-css {
+        width: 250px;
+    }
+
+    .image-code-javascript {
+        margin-top: 10em;
+        margin-left: -4em;
+        width: 250px;
+
+    }
+
+    /* empieza la sección de portfolio*/
+    .portfolio {
+        margin-bottom: 1.5em;
+    }
+
+    .portfolio h2 {
+        font-size: 2em;
+        letter-spacing: 1px;
+    }
+
+    .portfolio-images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5em;
+    }
+    .portfolio-images p {
+        display: none;
+        font-size: small;
+    }
+
+    .img-portfolio {
+        width: 350px;
+        height: auto;
+    }
+
+    .portfolio-divs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -4.5em;
+
+    }
+
+    .window {
+        width: 400px;
+        height: 200px;
+    }
+
+    .window-content {
+        align-items: center;
+        padding: 1em 1em .5em 1em;
+    }
+
+    .window-content h1 {
+        font-size: 1.5em;
+        margin-bottom: .1em;
+    }
+    .window-content h3 {
+        font-size: .6em;
+        margin-bottom: .2em;
+    }
+    .window-content p {
+        font-size: .8em;
+    }
+    .window-content a {
+        text-decoration: none;
+        color: #501510;
+    }
+    .window-content a:hover {
+        color:  rgba(180, 35, 26, 0.6);
+        font-size: 1.1em;
+    }
+
+    /* Contact*/
+    /* Contact Section */
+    .contacts {
+        margin: 2em auto;
+        gap: 1.5em;
+        width: 60%;
+    }
+
+    .contacts .img-profile {
+        width: 8em;
+        height: auto;
+    }
+}
+
+
+
+
+@media (max-width: 960px) {
+
+
+    header {
+        background-image: url('../image/fondo_header.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw auto;
+        height: 100vh;
+    }
+
+    header h1 {
+        width: 70%;
+        font-size: 3em;
+    }
+
+    .subtitle {
+        font-size: .8em;
+    }
+
+
+    /* Sección About*/
+    .about h2 {
+        font-size: 2em;
+    }
+
+    .img-txt {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .img-profile {
+        width: 200px;
+    }
+
+    .about-me-img-txt {
+        margin-top: -1em;
+        width: 50%;
+        height: 85vh;
+    }
+
+    .about-me-img-txt p {
+        font-family: 'DM Serif Display', serif;
+        font-size: .98em;
+        text-align: left;
+        text-justify: auto;
+    }
+
+    .logos-skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 3em;
+    }
+
+    .logos-skills img {
+        width: 64px;
+        height: auto;
+    }
+
+    .about-images-code {
+        display: inline-block;
+        justify-content: center;
+        padding-left: 10em;
+    }
+
+    .image-code-html {
+        width: 250px;
+    }
+
+    .image-code-css {
+        width: 250px;
+    }
+
+    .image-code-javascript {
+        margin-top: 10em;
+        margin-left: -4em;
+        width: 250px;
+
+    }
+
+    /* empieza la sección de portfolio*/
+
+    .portfolio h2 {
+        font-size: 2em;
+        letter-spacing: 1px;
+    }
+
+    .window {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        z-index: 1;
+        background-color: white;
+        width: 400px;
+        height: 200px;
+        max-width: 80%;
+        overflow: auto;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6);
+
+    }
+
+    .window-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: .5em 1em .5em 1em;
+        text-align: center;
+        gap: .5em;
+    }
+
+    .window-content h1 {
+        margin-bottom: .2em;
+    }
+
+    .window-content h3 {
+        font-family: 'DM Serif Display', serif;
+        font-size: .8em;
+        margin-bottom: .5em;
+    }
+
+    .window-content p {
+        font-size: .8em;
+    }
+
+    .window-content a {
+        text-decoration: none;
+        color: #501510;
+    }
+
+    .window-content a:hover {
+        color: rgba(180, 35, 26, 0.6);
+        font-size: 1.1em;
+    }
+
+    /* Contact*/
+    /* Contact Section */
+
+    .contacts {
+        margin-top: 6em;
+        border-radius: 2em;
+        padding: 1em 0 1em 0;
+        background-color: #fff;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6);
+
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+        background-image: url('../image/fondo_header.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw auto;
+        height: 100vh;
+    }
+
+    .title {
+        padding-left: 1em;
+        margin-bottom: .5em;
+        width: 80%;
+        font-family: 'DM Serif Display', serif;
+        font-size: 4em;
+        color: #fff;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        text-align: left;
+        letter-spacing: .2rem;
+    }
+
+    .subtitle {
+        font-size: .8em;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        text-align: right;
+        transition: 0.3s;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+
+    .bar {
+        display: flex;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #fff;
+        vertical-align: center;
+
+    }
+
+    .hamburger {
+        background-color: rgba(180, 35, 26, 0.6);
+        padding-top: .2em;
+        height: 2em;
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+
+
+/* Sección About*/
+.about h2 {
+    font-size: 2em;
+}
+
+.img-txt {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.img-profile {
+    width: 200px;
+}
+
+.about-me-img-txt {
+    margin-top: -1em;
+    width: 50%;
+    height: 85vh;
+}
+
+.about-me-img-txt p {
+    font-family: 'DM Serif Display', serif;
+    font-size: .98em;
+    text-align: left;
+    text-justify: auto;
+}
+
+.logos-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 3em;
+}
+
+.logos-skills img {
+    width: 64px;
+    height: auto;
+}
+
+.about-images-code {
+    display: inline-block;
+    justify-content: center;
+    padding-left: 10em;
+}
+
+.image-code-html {
+    width: 300px;
+}
+
+.image-code-css {
+    margin-left: -2em;
+    width: 300px;
+}
+
+.image-code-javascript {
+    margin-top: 10em;
+    margin-left: -4em;
+    width: 300px;
+
+}
+
+
+
+@media (max-width: 420px) {
+    .container {
+        height: 100%;
+    }
+
+
+    header {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        background-image: url('../image/fondo_header.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw auto;
+        height: 34em;
+    }
+
+    header h1 {
+        padding-left: 1em;
+    }
+
+
+    .navigation {
+        display: flex;
+        justify-content: flex-end;
+        background-color: rgba(180, 35, 26, 0.6);
+    }
+
+
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        border-radius: 10px;
+        text-align: right;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        background-color: rgba(180, 35, 26, 0.6);
+        display: block;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+nav li:nth-child(4) {
+    margin-right: 1rem ;
+}
+
+nav li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+nav li a:hover {
+    background-color:#501510;
+}
+/* Sección About*/
+.about {
+    padding-top: 5em;
+    background-color: #b9babb;
+    background-image: url("../image/tecclado.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    height: 34em;
+}
+.about-complete-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about h2 {
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+
+.img-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-profile {
+    margin-bottom: 1em;
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.about-me-img-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2em;
+    gap: 2em;
+    background-color:rgba(255, 255, 255, 0.7);
+    width: 30%;
+    height: 85vh;
+    padding: 0 2em 0 2em;
+    border-top-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.about-me-img-txt p {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2em;
+    text-align: center;
+
+}
+.about-me-content h2 {
+    font-size: 3em;
+    color: gray;
+    padding-top: .5em;
+}
+
+.logos-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.logos-skills img {
+    width: 96px;
+    height: auto;
+}
+
+.about-images-code {
+    display: none;
+    justify-content: center;
+    padding-left: 12em;
+}
+
+/* empieza la sección de portfolio*/
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 3em;
+    width: 100vw;
+    height: auto;
+}
+.portfolio h2 {
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+    margin-bottom: .2em;
+    letter-spacing: 3px;
+}
+
+.portfolio-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5em;
+}
+.portfolio-images p {
+    font-size: small;
+}
+
+.img-portfolio {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -4.5em;
+
+}
+.open-window, .button{
+    background-color: rgba(180, 35, 26, 0.6);
+    border-radius: 8px;
+    width: 8em;
+    height: 2em;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: .5em;
+    margin-bottom: .2em;
+    padding: 0 .1em 0 .1em;
+
+}
+
+.window{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    z-index: 1;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    max-width: 80%;
+    overflow: auto;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6);
+
+}
+
+.window-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 2em 1em 2em;
+    text-align: center;
+    gap: .5em;
+}
+
+.window-content h1 {
+    margin-bottom: 1em;
+}
+.window-content h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.window-content a {
+    text-decoration: none;
+    color: #501510;
+}
+.window-content a:hover {
+    color:  rgba(180, 35, 26, 0.6);
+    font-size: 1.1em;
+}
+
+/* Contact*/
+/* Contact Section */
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+    width: 40%;
+    margin: 1em auto;
+    border-radius: 2em;
+    padding: 1em 0 1em 0;
+    background-color: #fff;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6);
+
+}
+
+.contacts .img-profile {
+    width: 12em;
+    height: auto;
+
+}
+
+.data-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.social-logos {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    transition: rotate 6s, transform 12s;
+}
+
+.social {
+    width: 48px;
+    height: 48px;
+
+}
+
+.social-logos a:hover {
+    width: 52px;
+    height: 52px;
+    transform: scale(1.5);
+
+}
+
+/* Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5em;
+    background-color: #1C1C1C;
+
+}
+footer h3 {
+    font-family: 'DM Serif Display', serif;
+    color: #fff;
+    letter-spacing: 3px;
+}
+footer h4 {
+    color: #fff;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 3px;
+
+}

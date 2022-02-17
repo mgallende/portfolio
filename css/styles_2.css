@@ -1,0 +1,427 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    background-image: url('../image/fondo_header.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    height: 100vh;
+}
+
+.title-content {
+    margin-left: 3em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 4.5em;
+    margin-bottom: 3em;
+
+
+}
+.title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    letter-spacing: .2rem;
+
+}
+
+.subtitle {
+    font-family: 'Anton', sans-serif;
+    font-size: 5em;
+    color: #fff;
+    letter-spacing: .2rem;
+    text-shadow: black 0.1em 0.1em 0.1em;
+
+
+
+}
+
+
+
+.navbar {
+    align-items: center;
+    position:fixed;
+    z-index:1000;
+    top:0;
+    transition: background .15s;
+    left:0;
+    width:100vw;
+    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.5);
+
+}
+.nav-menu {
+    display: flex;
+    justify-content: end;
+    background-color: rgba(180, 35, 26, 0.6);
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+
+}
+
+nav li:nth-child(4) {
+    margin-right: 3em ;
+}
+
+nav li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+nav li a:hover {
+    background-color:#501510;
+}
+/* Sección About*/
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5em;
+    background-color: #b9babb;
+    background-image: url("../image/tecclado.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.about-title {
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+
+.bio {
+    margin-left: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.7);
+    width: 30em;
+    height: 90vh;
+    padding: 0 2em 0 2em;
+    border-top-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.img-profile {
+    width: 350px;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 12px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.description {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2em;
+    text-align: center;
+
+}
+.skills-title {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    font-size: 3em;
+    color: gray;
+}
+
+.logos-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.logos-skills img {
+    width: 92px;
+    height: auto;
+}
+
+.code-img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.image-code-html {
+    position: absolute;
+    margin-left: -10em;
+    z-index: 1;
+    border-radius: 22px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    width: 50em;
+    height: auto;
+    opacity: 0.8;
+    filter: alpha(opacity=80);       /* IE8 and lower */
+
+}
+
+.image-code-css {
+    position: absolute;
+    margin-top: 5em;
+    margin-left: 1em;
+    z-index: 2;
+    border-radius: 22px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    width: 50em;
+    height: auto;
+    opacity: 0.9;
+    filter: alpha(opacity=90);       /* IE8 and lower */
+
+
+}
+.image-code-javascript {
+    position: relative;
+    margin-top: 15em;
+    margin-left: -6em;
+    z-index: 3;
+    border-radius: 22px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    width: 50em;
+    height: auto;
+    opacity: 0.8;
+    filter: alpha(opacity=80);       /* IE8 and lower */
+}
+
+/* empieza la sección de portfolio*/
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 3em;
+    width: 100vw;
+    height: 100vh;
+}
+.portfolio h2 {
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+    margin-bottom: .2em;
+    letter-spacing: 3px;
+}
+
+.portfolio-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5em;
+}
+.portfolio-images p {
+    font-size: small;
+}
+
+.img-portfolio {
+    width: 550px;
+    height: auto;
+}
+
+.portfolio-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -4.5em;
+
+}
+.open-window, .button{
+    background-color: rgba(180, 35, 26, 0.6);
+    border-radius: 8px;
+    width: 8em;
+    height: 2em;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: .5em;
+    margin-bottom: .2em;
+    padding: 0 .1em 0 .1em;
+
+}
+
+.window{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    z-index: 1;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    max-width: 80%;
+    overflow: auto;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6);
+
+}
+
+.window-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 2em 1em 2em;
+    text-align: center;
+    gap: .5em;
+}
+
+.window-content h1 {
+    margin-bottom: 1em;
+}
+.window-content h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.window-content a {
+    text-decoration: none;
+    color: #501510;
+}
+.window-content a:hover {
+    color:  rgba(180, 35, 26, 0.6);
+    font-size: 1.1em;
+}
+
+/* Contact*/
+/* Contact Section */
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 40em;
+    margin: 1em auto;
+    border-radius: 2em;
+    padding: 1em 0 1em 0;
+    background-color: #fff;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6);
+
+}
+
+.contacts .img-profile {
+    width: 12em;
+    height: auto;
+
+}
+
+.data-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.contact-title, .contact-mail {
+    font-family: 'Anton', sans-serif;
+}
+.contact-title {
+    font-size: 2em;
+}
+.contact-mail a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: gray;
+}
+
+.contact-mail a:hover {
+    color:#501510;
+    font-size: 1.4em;
+}
+
+.social-logos {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    transition: rotate 6s, transform 12s;
+}
+
+.social {
+    width: 48px;
+    height: 48px;
+
+}
+
+.social-logos a:hover {
+    width: 52px;
+    height: 52px;
+    transform: scale(1.5);
+
+}
+
+/* Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6em;
+    background-color: #1C1C1C;
+    padding: 3em;
+
+}
+.title-footer {
+    font-family: 'DM Serif Display', serif;
+    color: #fff;
+    font-size: 1.5em;
+    letter-spacing: .18em;
+}
+.subtitle-footer {
+    color: #fff;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5em;
+    letter-spacing: .18em;
+
+}
+
+
+

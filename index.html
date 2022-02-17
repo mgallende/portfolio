@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="max-width=device-width, maximum-scale=1">
+    <title>Manuel Gómez, Front-end developer!</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <a id="index"></a>
+
+    <header class="header">
+
+        <nav class="navbar">
+            <div class=container-hamburger">
+                <ul class="hamburger">
+                    <li class="bar"></li>
+                    <li class="bar"></li>
+                    <li class="bar"></li>
+                </ul>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="#index">Index</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacts">Contact</a></li>
+            </ul>
+        </nav>
+
+        <h1 class="title">Manuel Gómez Allende <span class="subtitle">Front end developer</span></h1>
+
+    </header>
+
+    <a id="about"></a>
+
+    <section class="about">
+
+        <div class="bio">
+                <h2 class="about-title">About Me</h2>
+                        <img class="img-profile" src="image/perfil.jpg" alt="Manuel Ángel Gómez Allende">
+                        <p class="description">Estudio Gráfico mgallende no es un simple estudio de creatividad y diseño. Nos ocupamos de la proyección y comunicación de su imagen con un elevado índice de calidad. Con nosotros tendrá una dedicación personalizada y una diferenciación a la hora de satisfacer las necesidades en la comunicación de su empresa.</p>
+
+                    <h2 class="skills-title">skills</h2>
+
+                    <div class="logos-skills">
+                        <img class="HTML-logo" src="image/html5.svg" alt="HTML skills">
+                        <img class="JS-logo" src="image/javascript-1.svg" alt="Javascript skills">
+                        <img class="CSS-logo" src="image/css-3.svg" alt="Css skills">
+                    </div>
+        </div>
+
+
+        <div class="code-img">
+                <img class="image-code-html" src="image/codigo_html.jpg" alt="Programación HTML">
+                <img class="image-code-css" src="image/css.png" alt="Programación HTML">
+                <img class="image-code-javascript" src="image/codigo_javascript.jpg" alt="Programación HTML">
+            </div>
+
+    </section>
+
+
+    <a id="portfolio">    </a><section class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-images">
+
+        <div class="portfolio-divs">
+            <button class="open-window" id="openCaseConverter">Open Project</button>
+            <img class="img-portfolio" src="image/caseConverter.JPG" alt="Case converter">
+            <p>Case Converter, simple tool developed with HTML, Css and Javascript.</p>
+        </div>
+        <div class="portfolio-divs">
+            <button class="open-window" id="openFlashCards">Open Project</button>
+            <img class="img-portfolio" src="image/flashCards.jpg" alt="FlashCards">
+            <p>Stylized page with flashcards developed with HTML, Css and Javascript.</p>
+        </div>
+        <div class="portfolio-divs">
+            <button class="open-window" id="openPiano">Open Project</button>
+            <img class="img-portfolio" src="image/virtualPiano.JPG" alt="Virtual Piano">
+            <p>Play Piano whit this  tool developed with HTML, Css and Javascript.</p>
+        </div>
+        <div class="portfolio-divs">
+            <button class="open-window" id="openToDoList">Open Project</button>
+            <img  class="img-portfolio" src="image/toDo_list.JPG" alt="To Do Lisy">
+            <p>A simple To Do List with LocalStorage.</p>
+        </div>
+    </div>
+</section>
+
+    <section>
+        <div id="popupCaseConverter" class="window">
+            <div class="window-content">
+                <h1>Case Converter</h1>
+                <h3>You can see the project at the following link: <a href="https:\\www.mgallende.com\caseconverter\index.html">Case Converter</a></h3>
+                <p>I created a small web page with a case converter.
+                    In this development I learned the basics of HTML, Css and JavaScript.</p>
+                <button class="button" id="closeCaseConverter">Close</button>
+            </div>
+        </div>
+
+        <div id="popupFlashCards" class="window">
+            <div class="window-content">
+                <h1>FlashCards</h1>
+                <h3>You can see the project at the following link: <a href="https:\\www.mgallende.com\flashCards\index.html">FlashCards</a></h3>
+                <p>I created a small web page with flip cards. In this development I learned the basics of HTML and Css.</p>
+                <button class="button" id="closeFlashCards">Close</button>
+            </div>
+        </div>
+
+        <div id="popupPiano" class="window">
+
+            <div class="window-content">
+                <h1>Virtual Piano</h1>
+                <h3>You can see the project at the following link: <a href="https:\\www.mgallende.com\virtualPiano\index.html">Virtual Piano</a></h3>
+                <p>I created a small web page with a Little piano to play. In this development I learned the basics of HTML, Css and JavaScript.</p>
+                <button class="button" id="closePiano">Close</button>
+            </div>
+        </div>
+
+
+        <div id="popupToDoList" class="window" >
+            <div class="window-content">
+                <h1>To Do List</h1>
+                <h3>You can see the project at the following link: <a href="https:\\www.mgallende.com\todolist\index.html">To Do List</a></h3>
+                <p>I created a small To Do List web page with LocalStorage. In this development I learned the basics of HTML, Css and JavaScript.</p>
+                <button class="button" id="closeToDoList">Close</button>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <a id="contacts"></a>
+    <section class="contacts">
+        <img class="img-profile" src="image/perfil.jpg" alt="Manuel Ángel Gómez Allende">
+        <div class="data-contact">
+            <h2 class="contact-title">Contact me</h2>
+            <div class="social-logos">
+                <a href="https://codepen.io/mgallende"><img class="social" src="./image/codepen-tile.svg" alt="Logo Codepen"></a>
+                <a href="https://github.com/mgallende"><img class="social" src="./image/github.svg" alt="Logo Github"></a>
+                <a href="https://twitter.com/manuelgomez_d"><img class="social" src="./image/twitter.svg" alt="Logo Twitter"></a>
+                <a href="https://www.instagram.com/manuelgomezallende/?hl=es"><img class="social" src="./image/instagram.svg" alt="Logo Instagramn"></a>
+                <a href="https://www.facebook.com/ManuelGomezAllende"><img class="social" src="./image/facebook.svg" alt="Logo Facebook"></a>
+                <a href="https://www.linkedin.com/in/manuel-g%C3%B3mez-allende/"><img class="social" src="./image/Linkedin.svg" alt="Logo Linkedin"></a>
+            </div>
+            <h4 class="contact-mail"><a href="mailto:">mgallende@mgallende.com</a></h4>
+        </div>
+    </section>
+    <footer>
+        <h3>Manuel Gómez Allende</h3>
+        <h4>2021</h4>
+
+    </footer>
+</div>
+<script src="./js/script.js/"></script>
+</body>
+</html>
